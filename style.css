@@ -1,0 +1,47 @@
+body {
+    background-color: #000000; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    margin: 0; /* Good practice to remove default browser margins */
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    max-width: 90%; /* Ensures it fits on mobile screens */
+}
+
+/* --- New Image Styling --- */
+.container img {
+    width: 200px;        /* Adjustable width */
+    height: 200px;       /* Adjustable height */
+    object-fit: cover;   /* Prevents stretching/squishing */
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 15px; /* Spacing */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#yesBtn {
+    background-color: #ff4081;
+    color: white;
+}
+
+#noBtn {
+    background-color: #eee;
+    color: #333;
+}
